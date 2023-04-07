@@ -1,20 +1,51 @@
-#projetos {
+@media (max-width: 767px) {
+    .projetos {
+      padding-top: 50px;
+    }
+  
+    .projetos h2 {
+      font-size: 24px;
+      padding-bottom: 40px;
+    }
+  
+    .projetos a {
+      display: block;
+      margin: 0 auto;
+    }
+  
+    .pro {
+      height: auto;
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 30px;
+    }
+  
+    .pro div {
+      background-color: #705656;
+      width: 100%;
+      padding: 20px 0;
+      transform: none;
+    }
+  }
+  
+  #projetos {
     background-color: #121214;
-}
-
-.projetos {
+  }
+  
+  .projetos {
     padding-top: 93px;
-}
-
-.projetos h2, .projetos a {
+  }
+  
+  .projetos h2,
+  .projetos a {
     text-align: center;
-}
-
-.projetos h2 {
+  }
+  
+  .projetos h2 {
     padding-bottom: 70px;
-}
-
-button {
+  }
+  
+  button {
     padding: 10px 100px;
     border-radius: 25px;
     cursor: pointer;
@@ -22,13 +53,13 @@ button {
     background-color: #493737;
     border: none;
     transition: ease-in-out 0.3s;
-}
-
-button:hover {
+  }
+  
+  button:hover {
     background-color: #a16c60;
-}
-
-.github-link {
+  }
+  
+  .github-link {
     margin: 0 auto;
     padding-top: 35px;
     padding-bottom: 93px;
@@ -37,13 +68,13 @@ button:hover {
     flex-direction: column;
     align-items: center;
     gap: 35px;
-}
-
-.projetos a {
+  }
+  
+  .projetos a {
     display: inline;
-}
-
-.pro {
+  }
+  
+  .pro {
     background-color: #C4C4C4;
     height: 195px;
     width: 310px;
@@ -54,61 +85,30 @@ button:hover {
     cursor: pointer;
     overflow: hidden;
     transition: ease-in-out 0.3s;
-}
-
-.pro div p {
+  }
+  
+  .pro div p {
     font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
     color: #C4C4C4;
-}
-
-.pro:hover {
+  }
+  
+  .pro:hover {
     letter-spacing: 5px;
-}
-
-.pro div {
+  }
+  
+  .pro div {
     background-color: #705656;
     width: 1000px;
     text-align: center;
     padding: 5% 0;
     transform: rotate(-50deg);
-}
-
-.escondido {
-    opacity: 0;
-    display: none;
-    transition: 1000ms;
-}
-
-.projetos-itens {
+  }
+ 
+  .projetos-itens {
     display: flex;
     flex-wrap: wrap;
     gap: 29.5px;
     width: 100%;
     justify-content: center;
-}
-
-@media (max-width:1200px) {
-  .projetos{
-      text-align: center;
-      display: flex;
-      flex-direction: column;
   }
-
-  #projetos {
-      display: flex;
-      justify-content: center;
-  }
-
-  .projetos-itens {
-      flex-direction: column;
-  }
-
-}
-@media (max-width:950px) {
-    .pro {
-        max-width: 300px;
-    }
-
-}
-
