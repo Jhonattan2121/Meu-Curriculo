@@ -23,7 +23,10 @@ a:hover {
  color: rgb(208, 255, 0);
 }
 
-
+img {
+    max-width: 100%;
+    display: block;
+}
 
 .logo {
     padding: 15px 0;
@@ -54,7 +57,7 @@ a:hover {
 
 /* criando início */
 #inicio {
-    background: linear-gradient(63.13deg, #121214 51.04%, #323238 51.05%);
+    background: linear-gradient(63.13deg, #352728 51.04%, #8E5D52 51.05%);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -234,7 +237,12 @@ a:hover {
         margin: 0;
     }
 
-    
+    .logo {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
     .barra{
         height: 100vh;
         display: flex;
@@ -259,7 +267,22 @@ a:hover {
         flex-wrap: wrap;
         gap: 50px;
     }
-    
+    .barra-conteiner .logo{
+        width: 100%
+    }
+
+    .direita ul {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .direita ul a {
+        font-size: 35px;
+    }
+
     /* configurando menu mobile */
     .barra {
         display: block;
