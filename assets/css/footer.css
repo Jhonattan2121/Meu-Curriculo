@@ -29,7 +29,7 @@
     padding: 10px 0;
 }
 
-@media (max-width: 1200px) {
+@media only screen and  (max-width: 1200px) {
     .contato-creditos {
         text-align: center;
     }
