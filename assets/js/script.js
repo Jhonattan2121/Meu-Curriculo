@@ -107,60 +107,43 @@ sr.reveal('.conteiner-descricao', {duration : 3000, origin:'right'})
 
 // carousel */
 
-const carousel = document.querySelector('.carousel');
-const cells = carousel.querySelectorAll('div');
-const cellCount = cells.length;
-let selectedIndex = 0;
-let cellWidth = carousel.offsetWidth;
-let prevButton = document.createElement('button');
-let nextButton = document.createElement('button');
+const carousels = document.querySelectorAll('.carousel');
+  const cellWidth = carousels[0].querySelector('img').offsetWidth;
+  let selectedIndex = 0;
 
-function handleResize() {
-  cellWidth = carousel.offsetWidth;
-}
+  function handleClickPrev() {
+    selectedIndex = selectedIndex === 0 ? 0 : selectedIndex - 1;
+    updateCarousel();
+  }
 
-function handleClickPrev() {
-  selectedIndex = selectedIndex === 0 ? cellCount - 1 : selectedIndex - 1;
-  updateCarousel();
-}
+  function handleClickNext() {
+    selectedIndex = selectedIndex === carousels.length - 1 ? carousels.length - 1 : selectedIndex + 1;
+    updateCarousel();
+  }
 
-function handleClickNext() {
-  selectedIndex = selectedIndex === cellCount - 1 ? 0 : selectedIndex + 1;
-  updateCarousel();
-}
+  function updateCarousel() {
+    carousels.forEach(carousel => {
+      carousel.style.transform = `translateX(${-1 * selectedIndex * cellWidth}px)`;
+    });
+  }
 
-function updateCarousel() {
-  carousel.style.transform = `translateX(${-1 * selectedIndex * cellWidth}px)`;
-}
+  function initCarousel() {
+    carousels.forEach(carousel => {
+      carousel.parentNode.insertBefore(createButton('<', handleClickPrev), carousel);
+      carousel.parentNode.insertBefore(createButton('>', handleClickNext), carousel.nextSibling);
+    });
 
-function initCarousel() {
-  carousel.style.display = 'block';
-  carousel.style.overflow = 'hidden';
-  carousel.style.width = '500%';
-  carousel.style.height = 'auto';
-  carousel.style.margin = '0 auto';
-  carousel.style.whiteSpace = 'nowrap';
+    window.addEventListener('resize', updateCarousel);
+    updateCarousel();
+  }
 
-  cells.forEach(cell => {
-    cell.style.display = 'inline-block';
-    cell.style.width = '50%';
-    cell.style.height = 'auto';
-    cell.style.verticalAlign = 'top';
-  });
+  function createButton(text, handler) {
+    const button = document.createElement('button');
+    button.textContent = text;
+    button.addEventListener('click', handler);
+    return button;
+  }
 
-  carousel.parentNode.insertBefore(prevButton, carousel);
-  prevButton.textContent = '<';
-  prevButton.addEventListener('click', handleClickPrev);
-
-  carousel.parentNode.insertBefore(nextButton, carousel.nextSibling);
-  nextButton.textContent = '>';
-  nextButton.addEventListener('click', handleClickNext);
-
-  window.addEventListener('resize', handleResize);
-  handleResize();
-  updateCarousel();
-}
-
-initCarousel();
+  initCarousel();
 
 // carousel */

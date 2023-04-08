@@ -1,3 +1,4 @@
+@media only screen and (max-width: 767px) {
 h2 {
   font-size: 24px;
   margin-top: 40px;
@@ -20,7 +21,7 @@ h2 {
 }
 
 .carousel img {
-  max-width: 500px;
+  max-width: 400px;
   height: auto;
   object-fit: cover;
   scroll-snap-stop: always;
@@ -32,4 +33,5 @@ h2 {
 
 .carousel .next {
   order: 1;
+}
 }

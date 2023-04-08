@@ -33,7 +33,7 @@
   }
   
   .projetos {
-    padding-top: 93px;
+    padding-top: 1px;
   }
   
   .projetos h2,
@@ -41,9 +41,7 @@
     text-align: center;
   }
   
-  .projetos h2 {
-    padding-bottom: 70px;
-  }
+  
   
   button {
     padding: 10px 100px;
@@ -108,7 +106,7 @@
   .projetos-itens {
     display: flex;
     flex-wrap: wrap;
-    gap: 29.5px;
-    width: 100%;
+    gap: 8.5px;
+    width: 443px;
     justify-content: center;
   }
