@@ -57,7 +57,7 @@ img {
 
 /* criando início */
 #inicio {
-    background: linear-gradient(63.13deg, #352728 51.04%, #8E5D52 51.05%);
+    background: linear-gradient(63.13deg, #1e1e21 51.04%, #5a5a64 51.05%);
     height: 100vh;
     display: flex;
     align-items: center;
