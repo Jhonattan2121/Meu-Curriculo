@@ -1,0 +1,1 @@
+?branch=[![Netlify Status](https://api.netlify.com/api/v1/badges/61389e52-a436-4a1b-b0f4-5cf0cd982eac/deploy-status)](https://app.netlify.com/sites/meu-portifolio-jhonattan-ferri/deploys)
