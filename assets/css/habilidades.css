@@ -23,8 +23,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 37px;
-    max-width: 55%;
+    gap: 30px;
+    max-width: 90%;
 }
 
 .skill-box {
