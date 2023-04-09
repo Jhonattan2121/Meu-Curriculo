@@ -1,5 +1,5 @@
 #habilidades {
-    background-color: #29292E;
+    background-color: #202024;
 }
 
 .habilidades-pd {
@@ -14,7 +14,7 @@
 .skills-descricao {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
     gap:50px;
     padding-bottom: 70px;
 }
@@ -31,7 +31,7 @@
     height: 106px;
     width: 106px;
     background-color: #C4C4C4;
-    border-radius: 60px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +53,7 @@
     max-width: 40%;
 }
 
-@media only screen and (max-width:1200px) {
+@media (max-width:1200px) {
 
     .conteiner-descricao {
         height: 260px;
@@ -79,7 +79,7 @@
     }
 
 }
-@media only screen and  (max-width:950px) {
+@media (max-width:950px) {
     .conteiner-skills {
         display: flex;
         justify-content: center;
@@ -102,6 +102,9 @@
     opacity: 0;
 }
 
+
+
 #fundo {
-    fill: red;
+    fill: #7A1921;
 }
+

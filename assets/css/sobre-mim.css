@@ -22,6 +22,18 @@ h2 {
     position: absolute;
 }
 
+.avatar {
+    width: 323px;
+    height: 368px;
+    position: relative;
+    cursor: pointer;
+    transition: ease 1s;
+}
+
+.avatar:hover {
+    transform: scale(1.05);
+}
+
 @keyframes html {
     0% {
         bottom: 0;
@@ -74,13 +86,15 @@ h2 {
     color: white;
 }
 
-@media only screen and (max-width:1200px) {
+@media (max-width:1200px) {
     .ajustador-2 {
         justify-content: center;
         text-align: center;
     }
 
-    
+    .avatar {
+        margin-right: 60px;
+    }
 
     h2 {
         font-size: 30px;
@@ -94,7 +108,7 @@ h2 {
     }
 }
 
-@media only screen and (max-width:950px){
+@media(max-width:950px){
 
     .circulo {
         display: none;
@@ -104,6 +118,9 @@ h2 {
         padding: 70px 30px;
     }
 
+    .avatar {
+        margin-right: 0;
+    }
 
 }
     

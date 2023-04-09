@@ -57,7 +57,7 @@ img {
 
 /* criando início */
 #inicio {
-    background: linear-gradient(63.13deg, #1e1e21 51.04%, #5a5a64 51.05%);
+    background: linear-gradient(63.13deg, #8D8D99 51.04%, #323238 51.05%);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@ img {
 .linkedin {
     width: 479px;
     height: 85px;
-    background-color:#8E5D52;
+    background-color:#121214;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,10 +155,10 @@ img {
     }
 }
 
-@media only screen and  (max-width:1200px) {
+@media (max-width:1200px) {
     
     #inicio{
-       
+        background: linear-gradient(63.13deg, #8D8D99 51.04%, #323238 51.05%);
         height: auto;
     }
 
@@ -196,7 +196,7 @@ img {
 
 }
 
-@media only screen and  (max-width:950px) {
+@media (max-width:950px) {
     .desenho {
         padding: 25px 0;
     }
@@ -297,7 +297,7 @@ img {
         z-index: 2;
         top: 2rem;
         right: 2rem;
-        background: #792e33;
+        background: #121214;
         color: white;
         font-size: 3rem;
         line-height:3rem;
