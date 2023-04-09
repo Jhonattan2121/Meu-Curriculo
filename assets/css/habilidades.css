@@ -1,5 +1,5 @@
 #habilidades {
-    background-color: #202024;
+    background-color: #7C7C8A;
 }
 
 .habilidades-pd {
@@ -53,7 +53,7 @@
     max-width: 40%;
 }
 
-@media (max-width:1200px) {
+@media (max-width: 1200px) {
 
     .conteiner-descricao {
         height: 260px;
@@ -79,7 +79,7 @@
     }
 
 }
-@media (max-width:950px) {
+@media (max-width: 950px) {
     .conteiner-skills {
         display: flex;
         justify-content: center;

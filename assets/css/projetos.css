@@ -1,5 +1,5 @@
 #projetos {
-    background-color: #29292E;
+    background-color: #8D8D99;
 }
 
 .projetos {
@@ -19,13 +19,13 @@ button {
     border-radius: 25px;
     cursor: pointer;
     color: white;
-    background-color: #121214;
+    background-color: #7C7C8A;
     border: none;
     transition: ease-in-out 0.3s;
 }
 
 button:hover {
-    background-color: #121214;
+    background-color: #41414a;
 }
 
 .github-link {
@@ -81,7 +81,7 @@ button:hover {
 }
 
 .pro div {
-    background-color: rgba(54, 54, 60, 0.8);
+    
     width: 1000px;
     text-align: center;
     padding: 5% 0;

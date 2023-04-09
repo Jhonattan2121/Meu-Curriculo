@@ -6,12 +6,12 @@
     box-sizing: border-box;
     font-family: 'Quando', serif;
     scroll-behavior: smooth;
-    background-color: rgba(36, 36, 43, 0.8);
+    
 }
 
 .footer {
     width: 100%;
-    background-color:#241a1b;
+    background-color:#8D8D99;
 }
 
 .footer-conteiner {

@@ -91,7 +91,7 @@ img {
 .linkedin {
     width: 479px;
     height: 85px;
-    background-color:#121214;
+    background-color:#323238;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,7 +158,7 @@ img {
 @media (max-width:1200px) {
     
     #inicio{
-        background: linear-gradient(63.13deg, #8D8D99 51.04%, #323238 51.05%);
+        background:  #8D8D99 ;
         height: auto;
     }
 
