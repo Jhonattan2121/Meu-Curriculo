@@ -46,18 +46,11 @@
     transform: scale(1.05);
 }
 
-.conteiner-descricao {
-    color: white;
-    font-family: 'Quando', serif;
-    font-size: 20px;
-    max-width: 40%;
-}
+
 
 @media (max-width: 1200px) {
 
-    .conteiner-descricao {
-        height: 260px;
-    }
+   
 
     #habilidades {
         display: flex;
@@ -88,10 +81,7 @@
         max-width: 300px;
     }
 
-    .conteiner-descricao {
-        max-width: 300px;
-    }
-
+    
 }
 
 .skill-box .icones-habilidades {
