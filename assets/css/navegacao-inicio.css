@@ -1,4 +1,4 @@
-/* criando barra de navegação */
+
 ul {
     list-style: none;
     display: flex;
@@ -53,9 +53,7 @@ img {
     max-width: 1000px;
     margin: 0 auto;
 }
-/* barra de navegação terminada */
 
-/* criando início */
 #inicio {
     background: linear-gradient(63.13deg, #8D8D99 51.04%, #323238 51.05%);
     height: 100vh;
@@ -130,7 +128,7 @@ img {
     }
 }
 
-.desenho2 {
+.Minhafoto {
     position:relative;
     animation: desenhoAnimacao 2.1s infinite alternate-reverse linear;
 }
@@ -147,10 +145,13 @@ img {
 }
 
 @keyframes pisca {
-    0%, 100% {
-        opacity: 1;
+    0% {
+        opacity: 0;
     }
     50% {
+        opacity: 1;
+    }
+    100% {
         opacity: 0;
     }
 }
@@ -283,7 +284,7 @@ img {
         font-size: 35px;
     }
 
-    /* configurando menu mobile */
+   
     .barra {
         display: block;
         position: fixed;
