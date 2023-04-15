@@ -53,7 +53,7 @@ img {
 }
 
 #inicio {
-    background: linear-gradient(63.13deg, #8D8D99 51.04%, #323238 51.05%);
+    background: linear-gradient(63.13deg, #111111 51.04%, #323238 51.05%);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -72,7 +72,7 @@ img {
 
 .apresentacao {
     max-width: 741px;
-    color:white;
+    color: #DDDDDD;
 }
 
 .descricao {
@@ -109,7 +109,7 @@ img {
 
 .link:hover {
     letter-spacing: 5px;
-    color: white;
+    color: #DDDDDD;
 }
 
 .desenho {
@@ -289,7 +289,7 @@ img {
         top: 2rem;
         right: 2rem;
         background: #121214;
-        color: white;
+        color: #DDDDDD;
         font-size: 3rem;
         line-height:3rem;
         width: 3rem;

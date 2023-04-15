@@ -23,7 +23,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 90px;
     max-width: 90%;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .skill-box:hover {
-    background-color: white;
+    background-color: #CCCCCC;
     transform: scale(1.05);
 }
 
@@ -92,9 +92,4 @@
     opacity: 0;
 }
 
-
-
-#fundo {
-    fill: #7A1921;
-}
 
