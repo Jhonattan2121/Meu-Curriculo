@@ -87,7 +87,7 @@ img {
 .linkedin {
     width: 479px;
     height: 85px;
-    background-color:#323238;
+    background-color: #323238;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,6 +203,7 @@ img {
     .altura-ajuste{
         display: flex;
         justify-content: center;
+        background: linear-gradient(63.13deg, #111111 51.04%, #29292d 51.05%)
     }
     .organizador {
         max-width: 300px;
